@@ -44,7 +44,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span>Bolsa</span>
+        <span>95 Años</span>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -113,7 +113,7 @@
           <div class="modal-content">
             <div class="modal-header text-white colores">
               <h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesión</h5>
-              <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" onclick="limpiarFormulario()" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             
             <section id="hero2" class="hero2 d-flex align-items-center">
@@ -121,15 +121,21 @@
                   <div class="row gy-4">
                     <div class="col-lg-12">
                       <form method="post" class="form" id="login">
-                        <div class="row gy-4">
+                        <div class="row gy-3">
                           <div class="col-md-12">
-                            <input type="email" class="form-control" name="usuario" placeholder="Correo" required>
+                            <input type="email" class="form-control" name="usuario" id="usuario" placeholder="Ingresa tu Correo" required>
                           </div>
                           <div class="col-md-12">
-                            <input type="password" class="form-control" name="pass" placeholder="Contraseña" required>
+                            <input type="password" class="form-control" name="pass" id="pass" placeholder="Ingresa tu Contraseña" required>
+                          </div>
+                          <div class="container">
+                            <span class="row" id="mensaje"></span>
                           </div>
                           <div class="col-md-12 text-center">
                             <button type="submit" id="enviar" name="enviar" class="btn btn-primary">Entrar</button>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="button" id="mostrar" name="mostrar" class="btn btn-primary">Mostrar Contraseña</button>
                           </div>
                         </div>
                       </form>
@@ -1373,26 +1379,25 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <script>
-    //Boton Ver Contraseña
     var estadoMostrar = 0;
-    $("#mostrar").on("click", function() {
+$("#mostrar").on("click", function() {
 
-        if (estadoMostrar == 0) {
-            $("#pass").attr("type", "text");
-            $("#mostrar").removeClass("btn-danger");
-            $("#mostrar").addClass("btn-success");
-            $("#mensaje").html("<span class='alert alert-info'>la contraseña es visible</span>");
-            estadoMostrar = 1;
-        } else {
-            $("#pass").attr("type", "password");
-            $("#mostrar").removeClass("btn-success");
-            $("#mostrar").addClass("btn-danger");
-            $("#mensaje").html("");
+    if (estadoMostrar == 0) {
+        $("#pass").attr("type", "text");
+        $("#mostrar").removeClass("btn-primary");
+        $("#mostrar").addClass("btn-info");
+        $("#mensaje").html("<span class='alert alert-info'>la contraseña es visible</span>");
+        estadoMostrar = 1;
+    } else {
+        $("#pass").attr("type", "password");
+        $("#mostrar").removeClass("btn-info");
+        $("#mostrar").addClass("btn-primary");
+        $("#mensaje").html("");
 
-            estadoMostrar = 0;
-        }
+        estadoMostrar = 0;
+    }
 
-    });
+});
 
     $().ready(function() {
 
@@ -1493,7 +1498,11 @@ $.validator.addMethod("formEmail", function(value, element) {
         });
     });
 </script>
-  <!-- Template Main JS File -->
+<script>
+  function limpiarFormulario() {
+    document.getElementById("login").reset();
+  }
+</script>
   <script src="assets/js/main.js"></script>
 
 </body>
