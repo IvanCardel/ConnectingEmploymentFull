@@ -692,7 +692,7 @@ section {
 --------------------------------------------------------------*/
 .features .feature-box {
   padding: 24px 20px;
-  box-shadow: 0px 0 30px rgba(1, 156, 66, 0.08);
+  box-shadow: 0px 0 30px rgba(29, 155, 82, 0.08);
   transition: 0.3s;
   height: 100%;
 }

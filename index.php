@@ -89,7 +89,7 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">Bolsa de trabajo TECNM Roque</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Aprovecha tu talento e intégrate a equipos de trabajo</h2>
+          <h2 data-aos="fade-up" data-aos-delay="400">Aprovecha tu talento e intégrate a equipos de trabajo y más...</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <!-- <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -136,9 +136,9 @@
                           <div class="col-md-12 text-center">
                             <button type="submit" id="enviar" name="enviar" class="btn btn-primary">Entrar</button> 
                           </div>
-                          <div class="col-md-12 text-center">
+                          <!-- <div class="col-md-12 text-center">
                             <button type="button" id="mostrar" name="mostrar" class="btn btn-primary">Mostrar Contraseña</button>
-                          </div>
+                          </div> -->
                         </div>
                       </form>
                     </div>
@@ -212,35 +212,35 @@
         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
           <div class="feature-box d-flex align-items-center">
             <i class="bi bi-check"></i>
-            <h3>Reciclaje de plástico</h3>
+            <h3 class="text-success">Reciclaje de plástico</h3>
           </div>
         </div>
 
         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
           <div class="feature-box d-flex align-items-center">
             <i class="bi bi-check"></i>
-            <h3>Reciclaje de papel</h3>
+            <h3 class="text-success">Reciclaje de papel</h3>
           </div>
         </div>
 
         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
           <div class="feature-box d-flex align-items-center">
             <i class="bi bi-check"></i>
-            <h3>Reciclaje de vidrio</h3>
+            <h3 class="text-success">Reciclaje de vidrio</h3>
           </div>
         </div>
 
         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
           <div class="feature-box d-flex align-items-center">
             <i class="bi bi-check"></i>
-            <h3>Reciclaje de baterías y pilas</h3>
+            <h3 class="text-success">Reciclaje de baterías y pilas</h3>
           </div>
         </div>
 
         <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
           <div class="feature-box d-flex align-items-center">
             <i class="bi bi-check"></i>
-            <h3>Reciclaje de aluminio</h3>
+            <h3 class="text-success">Reciclaje de aluminio</h3>
           </div>
         </div>
 
