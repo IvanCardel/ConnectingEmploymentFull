@@ -52,7 +52,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
           <li><a class="nav-link scrollto" href="#about">Acerca De</a></li>
           <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portafolio</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Productos</a></li>
           <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
           <li><a href="blog.html">Blog</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -129,10 +129,12 @@
                             <input type="password" class="form-control" name="pass" id="pass" placeholder="Ingresa tu Contraseña" required>
                           </div>
                           <div class="container">
+                            <!-- <label class="row col-3" id="mensaje"></label> -->
                             <span class="row" id="mensaje"></span>
+                            <input class="form-check-input" type="checkbox" value="" name="mostrar" id="mostrar">Mostrar Contraseña
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" id="enviar" name="enviar" class="btn btn-primary">Entrar</button>
+                            <button type="submit" id="enviar" name="enviar" class="btn btn-primary">Entrar</button> 
                           </div>
                           <div class="col-md-12 text-center">
                             <button type="button" id="mostrar" name="mostrar" class="btn btn-primary">Mostrar Contraseña</button>
@@ -187,6 +189,293 @@
 
     </section><!-- End About Section -->
 
+
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+
+<div class="container" data-aos="fade-up">
+
+  <header class="section-header">
+      <h2 class="text-success">Servicio Social</h2>
+    <p class="text-success">Alumnos del TECNM en Roque ayudan al medio ambiente</p>
+  </header>
+
+  <div class="row">
+
+    <div class="col-lg-6">
+      <img src="assets/img/features.jpg" class="img-fluid" alt="">
+    </div>
+
+    <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+      <div class="row align-self-center gy-4">
+
+        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-check"></i>
+            <h3>Reciclaje de plástico</h3>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-check"></i>
+            <h3>Reciclaje de papel</h3>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-check"></i>
+            <h3>Reciclaje de vidrio</h3>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-check"></i>
+            <h3>Reciclaje de baterías y pilas</h3>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+          <div class="feature-box d-flex align-items-center">
+            <i class="bi bi-check"></i>
+            <h3>Reciclaje de aluminio</h3>
+          </div>
+        </div>
+
+        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+          <div class="feature-box d-flex align-items-center">
+            <a href="#" class="btn btn-success btn-lg " tabindex="-1" role="button" aria-disabled="true">Conoce Más</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div> <!-- / row -->
+
+  <!-- Feature Tabs -->
+  <div class="row feture-tabs" data-aos="fade-up">
+    <div class="col-lg-6">
+      <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
+
+      <!-- Tabs -->
+      <ul class="nav nav-pills mb-3">
+        <li>
+          <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a>
+        </li>
+        <li>
+          <a class="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a>
+        </li>
+        <li>
+          <a class="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
+        </li>
+      </ul><!-- End Tabs -->
+
+      <!-- Tab Content -->
+      <div class="tab-content">
+
+        <div class="tab-pane fade show active" id="tab1">
+          <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+          <div class="d-flex align-items-center mb-2">
+            <i class="bi bi-check2"></i>
+            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+          </div>
+          <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+          <div class="d-flex align-items-center mb-2">
+            <i class="bi bi-check2"></i>
+            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+          </div>
+          <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+        </div><!-- End Tab 1 Content -->
+
+        <div class="tab-pane fade show" id="tab2">
+          <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+          <div class="d-flex align-items-center mb-2">
+            <i class="bi bi-check2"></i>
+            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+          </div>
+          <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+          <div class="d-flex align-items-center mb-2">
+            <i class="bi bi-check2"></i>
+            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+          </div>
+          <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+        </div><!-- End Tab 2 Content -->
+
+        <div class="tab-pane fade show" id="tab3">
+          <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+          <div class="d-flex align-items-center mb-2">
+            <i class="bi bi-check2"></i>
+            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+          </div>
+          <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+          <div class="d-flex align-items-center mb-2">
+            <i class="bi bi-check2"></i>
+            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+          </div>
+          <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+        </div><!-- End Tab 3 Content -->
+
+      </div>
+
+    </div>
+
+    <div class="col-lg-6">
+      <img src="assets/img/features-2.png" class="img-fluid" alt="">
+    </div>
+
+  </div><!-- End Feature Tabs -->
+
+  <!-- Feature Icons -->
+  <div class="row feature-icons" data-aos="fade-up">
+    <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+
+    <div class="row">
+
+      <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+        <img src="assets/img/features-3.png" class="img-fluid p-4" alt="">
+      </div>
+
+      <div class="col-xl-8 d-flex content">
+        <div class="row align-self-center gy-4">
+
+          <div class="col-md-6 icon-box" data-aos="fade-up">
+            <i class="ri-line-chart-line"></i>
+            <div>
+              <h4>Corporis voluptates sit</h4>
+              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <i class="ri-stack-line"></i>
+            <div>
+              <h4>Ullamco laboris nisi</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <i class="ri-brush-4-line"></i>
+            <div>
+              <h4>Labore consequatur</h4>
+              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <i class="ri-magic-line"></i>
+            <div>
+              <h4>Beatae veritatis</h4>
+              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <i class="ri-command-line"></i>
+            <div>
+              <h4>Molestiae dolor</h4>
+              <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <i class="ri-radar-line"></i>
+            <div>
+              <h4>Explicabo consectetur</h4>
+              <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div><!-- End Feature Icons -->
+
+</div>
+
+</section><!-- End Features Section -->
+
+
+
+
+
+
+     <!-- ======= Clients Section ======= -->
+     <section id="clients" class="clients">
+
+<div class="container" data-aos="fade-up">
+
+  <header class="section-header">
+    <h2>Nuestros Clientes</h2>
+    <p>Cartera de Afiliados</p>
+  </header>
+
+  <div class="clients-slider swiper-container">
+    <div class="swiper-wrapper align-items-center">
+      <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
+      <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+      <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+      <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+      <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+      <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+      <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+      <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+</section><!-- End Clients Section -->
+
+<!-- ======= Recent Blog Posts Section ======= -->
+<section id="recent-blog-posts" class="recent-blog-posts">
+
+<div class="container" data-aos="fade-up">
+
+  <header class="section-header">
+    <h2>Blog</h2>
+    <p>Recent posts form our Blog</p>
+  </header>
+
+  <div class="row">
+
+    <div class="col-lg-4">
+      <div class="post-box">
+        <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
+        <span class="post-date">Tue, September 15</span>
+        <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
+        <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="post-box">
+        <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
+        <span class="post-date">Fri, August 28</span>
+        <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
+        <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="post-box">
+        <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+        <span class="post-date">Mon, July 11</span>
+        <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+        <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</section><!-- End Recent Blog Posts Section -->
     <!-- ======= Values Section ======= -->
 
 <!--     
@@ -284,280 +573,92 @@
       </div>
     </section><!-- End Counts Section -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Próximos lanzamientos</h2>
-          <p>Laboriosam et omnis fuga quis dolor direda fara</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-            <img src="assets/img/features.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
-            <div class="row align-self-center gy-4">
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Eos aspernatur rem</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Facilis neque ipsa</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Volup amet voluptas</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Rerum omnis sint</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Alias possimus</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Repellendus mollitia</h3>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-        </div> <!-- / row -->
-
-        <!-- Feature Tabs -->
-        <div class="row feture-tabs" data-aos="fade-up">
-          <div class="col-lg-6">
-            <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
-
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
-              </li>
-            </ul><!-- End Tabs -->
-
-            <!-- Tab Content -->
-            <div class="tab-content">
-
-              <div class="tab-pane fade show active" id="tab1">
-                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-                </div>
-                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                </div>
-                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-              </div><!-- End Tab 1 Content -->
-
-              <div class="tab-pane fade show" id="tab2">
-                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-                </div>
-                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                </div>
-                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-              </div><!-- End Tab 2 Content -->
-
-              <div class="tab-pane fade show" id="tab3">
-                <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-                </div>
-                <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-check2"></i>
-                  <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                </div>
-                <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-              </div><!-- End Tab 3 Content -->
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            <img src="assets/img/features-2.png" class="img-fluid" alt="">
-          </div>
-
-        </div><!-- End Feature Tabs -->
-
-        <!-- Feature Icons -->
-        <div class="row feature-icons" data-aos="fade-up">
-          <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
-
-          <div class="row">
-
-            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/features-3.png" class="img-fluid p-4" alt="">
-            </div>
-
-            <div class="col-xl-8 d-flex content">
-              <div class="row align-self-center gy-4">
-
-                <div class="col-md-6 icon-box" data-aos="fade-up">
-                  <i class="ri-line-chart-line"></i>
-                  <div>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="ri-stack-line"></i>
-                  <div>
-                    <h4>Ullamco laboris nisi</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="ri-brush-4-line"></i>
-                  <div>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="ri-magic-line"></i>
-                  <div>
-                    <h4>Beatae veritatis</h4>
-                    <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="ri-command-line"></i>
-                  <div>
-                    <h4>Molestiae dolor</h4>
-                    <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                  <i class="ri-radar-line"></i>
-                  <div>
-                    <h4>Explicabo consectetur</h4>
-                    <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-
-        </div><!-- End Feature Icons -->
-
-      </div>
-
-    </section><!-- End Features Section -->
-
+  
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Empleos</h2>
-          <p>No pierdas la oportunidad de unirte</p>
+          <h2>Perfil de ingenierías</h2>
+          <p>Conoce el perfil de nuestros egresados</p>
         </header>
 
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-box blue">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <img src="http://itroque.edu.mx/images/imalogos/TICs_web.png" alt="">
+              <!-- <i class="ri-discuss-line icon"></i> -->
+              <h3>Perfil</h3>
+              <p>
+                Conocimientos básicos del área físico - matemáticas.
+                Nivel básico del idioma inglés
+                El entorno político, económico y social en la actualidad.
+                Anilizar y sintetizar problemas prácticos y de la vida real.
+                Tener hábitos y métodos de estudio.
+                Disposición para trabajar en equipo.
+                La operación básica de una computadora y de aplicaciones.</p>
+              <a href="#" class="read-more"><span>Leer más</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-box orange">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <img src="http://itroque.edu.mx/images/imalogos/Gestion_empresarial_web.png" alt="">
+              <!-- <i class="ri-discuss-line icon"></i> -->
+              <h3>Perfil</h3>
+              <p>Desarrollar y aplicar habilidades directivas y la ingeniería en el diseño, creación, gestión, desarrollo fortalecimiento e innovación sistemática y sustentable para la toma de decisiones en forma efectiva.
+                Gestionar eficientemente los recursos de la organización con visión compartida, con el fin de suministrar bienes y servicios de calidad.
+                </p>
+              <a href="#" class="read-more"><span>Leer más</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box green">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <img src="http://itroque.edu.mx/images/imalogos/Agronomia_web.jpg" alt="">
+              <!-- <i class="ri-discuss-line icon"></i> -->
+              <h3>Perfil</h3>
+              <p>Los aspirantes a ingresar al Programa de Ingeniería en Agronomía deben reunir las siguientes características:
+                Bases académicas sólidas en las áreas físico-matemático o químico-biológicas, conocimientos básicos de inglés, conocimiento y manejo de las TIC´S.
+                </p>
+              <a href="#" class="read-more"><span>Leer más</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-box red">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Asperiores Commodi</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <img src="http://itroque.edu.mx/images/imalogos/innovacion_web.png" alt="">
+              <!-- <i class="ri-discuss-line icon"></i> -->
+              <h3>Perfil</h3>
+              <p>El egresado de Ingeniería en Innovación Agrícola Sustentable será capaz de:
+                Participar en el diseño, creación, instalación, operación y mantenimiento de empresas agrícolas dentro de un marco de desarrollo regional, nacional e internacional.
+                </p>
+              <a href="#" class="read-more"><span>Leer más</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-box purple">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Velit Doloremque.</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <img src="http://itroque.edu.mx/images/imalogos/Hidrologica_web.png" alt="">
+              <!-- <i class="ri-discuss-line icon"></i> -->
+              <h3>Perfil</h3>
+              <p>Formular y desarrollar proyectos para el aprovechamiento eficiente del agua.
+                Generar, desarrollar y aplicar estrategias para el uso sustentable del agua.
+                Generar y transferir tecnologías para la captación, distribución, tratamiento y abastecimiento eficiente del agua en usos agropecuarios, industrial y público.</p>
+              <a href="#" class="read-more"><span>Leer más</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-box pink">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <img src="http://itroque.edu.mx/images/imalogos/Industrias_web.jpg" alt="">
+              <!-- <i class="ri-discuss-line icon"></i> -->
+              <h3>Perfil</h3>
+              <p>El aspirante a ingresar al Programa de Ingeniería en Industrias Alimentarias deberá reunir las siguientes características: 
+                Conocimientos: bases académicas sólidas en las áreas físico-matemático o químico-biológicas, conocimientos básicos del idioma inglés, conocimiento y uso de herramientas computacionales básicas.</p>
+              <a href="#" class="read-more"><span>Leer más</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -568,7 +669,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
 
       <div class="container" data-aos="fade-up">
 
@@ -646,12 +747,13 @@
 
         </div>
 
-      </div>
+      </div> -->
 
-    </section><!-- End Pricing Section -->
+    <!-- </section> -->
+    <!-- End Pricing Section -->
 
     <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <!-- <section id="faq" class="faq">
 
       <div class="container" data-aos="fade-up">
 
@@ -661,9 +763,9 @@
         </header>
 
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6"> -->
             <!-- F.A.Q List 1-->
-            <div class="accordion accordion-flush" id="faqlist1">
+            <!-- <div class="accordion accordion-flush" id="faqlist1">
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
@@ -706,10 +808,10 @@
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-6"> -->
 
             <!-- F.A.Q List 2-->
-            <div class="accordion accordion-flush" id="faqlist2">
+            <!-- <div class="accordion accordion-flush" id="faqlist2">
 
               <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -755,9 +857,10 @@
 
         </div>
 
-      </div>
+      </div> -->
 
-    </section><!-- End F.A.Q Section -->
+    <!-- </section> -->
+    <!-- End F.A.Q Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -765,14 +868,14 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Portafolio</h2>
-          <p>Check our latest work</p>
+          <h2>Productos</h2>
+          <p>Conoce los productos hechos por los egresados</p>
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter="*" class="filter-active">Todo</li>
               <li data-filter=".filter-app">Tics</li>
               <li data-filter=".filter-card">Industrias</li>
               <li data-filter=".filter-web">Agropecuaria</li>
@@ -786,10 +889,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>Robot Arduino didáctico</h4>
+                <p>1 pieza</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -800,10 +903,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Fibra De Coco Lavada y Estabilizada</h4>
+                <p>1 Kg</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -812,12 +915,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <h4>Desarrollo Web</h4>
+                <p>Servicio</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -828,10 +931,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
+                <h4>Mermelada de nopal</h4>
+                <p>300 Gramos</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -842,10 +945,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>Semilla ajonjolí</h4>
+                <p>100 gramos</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -856,10 +959,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>Instalación de Redes</h4>
+                <p>Servicio</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -870,10 +973,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4>Agua Toscana</h4>
+                <p>1 Litro</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -884,10 +987,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>Polvorones</h4>
+                <p>Paquete de 4</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -898,10 +1001,10 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Crema de Coco</h4>
+                <p>1 litro</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title=""><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -927,85 +1030,25 @@
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
+            <?php require_once("conec.php");
+            $resultado=mysqli_query($cn,"SELECT * FROM usuario order by fechaUsuario LIMIT 5");
+            while($fila=mysqli_fetch_array($resultado)){
+              echo"<div class='swiper-slide'>
+              <div class='testimonial-item'>
+                
                 <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                ".$fila['descUsuario']."
                 </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                <div class='profile mt-auto'>
+                  <img src='assets/img/testimonials/".$fila['fotoUsuario']."' class='testimonial-img' alt=''>
+                  <h3>".$fila['nombresUsuario']."</h3>
+                  <h4>".$fila['tituloUsuario']."</h4>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>";
+          }
+          ?>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                </p>
-                <div class="profile mt-auto">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
 
           </div>
           <div class="swiper-pagination"></div>
@@ -1059,8 +1102,8 @@
               </div>
               <div class="member-info">
                 <h4>Iván Cardel</h4>
-                <span>Product Manager</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                <span>Desarrollador</span>
+                <p>Me encanta desarrollar y escuchar música</p>
               </div>
             </div>
           </div>
@@ -1109,77 +1152,7 @@
 
     </section><!-- End Team Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Nuestros Clientes</h2>
-          <p>Cartera de Afiliados</p>
-        </header>
-
-        <div class="clients-slider swiper-container">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-    </section><!-- End Clients Section -->
-
-    <!-- ======= Recent Blog Posts Section ======= -->
-    <section id="recent-blog-posts" class="recent-blog-posts">
-
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <h2>Blog</h2>
-          <p>Recent posts form our Blog</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">Tue, September 15</span>
-              <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit</h3>
-              <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">Fri, August 28</span>
-              <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
-              <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="post-box">
-              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
-              <span class="post-date">Mon, July 11</span>
-              <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
-              <a href="blog-singe.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- End Recent Blog Posts Section -->
+   
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -1242,9 +1215,9 @@
                   <input type="email" class="form-control" name="email" placeholder="Correo" required>
                 </div>
 
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Empresa/Empleado" required>
-                </div>
+                <!-- <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="" required>
+                </div> -->
 
                 <div class="col-md-12">
                   <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required></textarea>
@@ -1296,47 +1269,47 @@
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" alt="">
-              <span>FlexStart</span>
+              <span>95 años</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <p>El Tecnológico Nacional de México Roque es una institución de educación superior localizado en la localidad de Roque, en Celaya.</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+              <a href="https://twitter.com/TecNMRoque" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/TecNMRoque/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/tecroque/?hl=es-la" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a> -->
             </div>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4  class="text-success">Ellos contribuyen al medio ambiente, ¿Y tú?</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="https://www.ecoembes.com/es">Ecoembes</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="https://www.ecoce.mx/">Ecoce</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="https://www.gob.mx/semarnat">SEMARNAT</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="https://www.ecosia.org/">Ecosia</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="http://www.ambientum.com/">Ambientum</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
+            <h4 class="text-success">Otros</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="http://www.calamar2.com/">Calamar2</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="https://www.concienciaeco.com/">Concienciaeco</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="https://ecocosas.com/">Ecococsas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="http://www.ecoestrategia.com/">Ecoestrategia</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a class="text-success" target="black" href="http://www.ecointeligencia.com/">Ecointeligencia</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
-            <p>
+            <h4>Contacto Personal</h4>
+            <!-- <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              United States <br><br> -->
+              <strong>Teléfono:</strong> +52 2518850 <br>
+              <strong>Correo:</strong> ivan@gmail.com<br>
             </p>
 
           </div>
@@ -1386,7 +1359,7 @@ $("#mostrar").on("click", function() {
         $("#pass").attr("type", "text");
         $("#mostrar").removeClass("btn-primary");
         $("#mostrar").addClass("btn-info");
-        $("#mensaje").html("<span class='alert alert-info'>la contraseña es visible</span>");
+        $("#mensaje").html("<span class='alert alert-info'>La contraseña es visible</span>");
         estadoMostrar = 1;
     } else {
         $("#pass").attr("type", "password");
